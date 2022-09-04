@@ -20,8 +20,12 @@ public class Exam_preparation {
         }else if(d == 0){
             double x = (-b) / (2 * a);
             System.out.println("X is:" + x);
+            
+            
         }else{
             System.out.println("Error");
+            
+            
         }
     }
     
