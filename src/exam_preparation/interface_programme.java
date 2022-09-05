@@ -1,18 +1,14 @@
 package exam_preparation;
 
-// Infate programme
-
-
+// Interface programme
 interface student{
     String name = "Fahmida Yeasmin";
     int roll = 451628;
     String favourite_drink = "Coffee";
     String favourite_snacks = "Parched rice";
 
-
     void printData();
 }
-
 
 class display implements student{
     public void printData(){
@@ -27,7 +23,6 @@ class display implements student{
 public class interface_programme {
     public static void main(String[] args) {
         display obj = new display();
-
         obj.printData();
     }
 }
