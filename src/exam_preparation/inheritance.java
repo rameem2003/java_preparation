@@ -1,5 +1,6 @@
 package exam_preparation;
 
+// Inheritance 
 
 class student_info{
     String name = "Mahmood Hassan Rameem";

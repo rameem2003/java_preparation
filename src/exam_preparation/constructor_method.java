@@ -1,5 +1,6 @@
 package exam_preparation;
 
+// Constructor methmod
 
 class constructor{
     public constructor(){

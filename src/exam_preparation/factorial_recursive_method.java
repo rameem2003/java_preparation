@@ -1,5 +1,7 @@
 package exam_preparation;
 
+// Factorial number
+
 public class factorial_recursive_method {
 
     public static long fact(long n){
