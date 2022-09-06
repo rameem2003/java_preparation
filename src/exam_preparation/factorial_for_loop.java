@@ -10,7 +10,7 @@ public class factorial_for_loop {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the number: ");
-        int n = input.nextInt();
+        int n = input.nextInt(); // 5
 
         int fact = 1;
 

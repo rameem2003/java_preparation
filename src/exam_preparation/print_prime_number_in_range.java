@@ -10,10 +10,10 @@ public class print_prime_number_in_range {
 
 
         System.out.print("Enter the starting number: ");
-        int start = input.nextInt();
+        int start = input.nextInt(); // 20
 
         System.out.print("Enter the ending number: ");
-        int end = input.nextInt();
+        int end = input.nextInt(); // 30
 
         int count = 0;
 
@@ -21,7 +21,7 @@ public class print_prime_number_in_range {
         for(int i = start; i <= end; i++){
 
 
-            for(int j = 2; j <= i - 1; j++){
+            for(int j = 2; j < i; j++){
                 if(i%j == 0){
                     count++;
                     break;
